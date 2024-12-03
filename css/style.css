@@ -1,0 +1,52 @@
+.item {
+    position: relative;
+    cursor: pointer;
+}
+
+.item-caption {
+    position: absolute;
+    background-color: aliceblue;
+    bottom: 30px;
+    width: 80%;
+    left: 10%;
+    text-align: center;
+    padding: 10px;
+}
+
+#lightBoxContainer {
+    background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+#lightBox {
+    position: relative;
+    background-image: url(../images/overlay-bg.jpg);
+    width: 50%;
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    animation-duration: 1s;
+}
+
+#close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+i {
+    margin: 0px 10px;
+    font-size: 22px;
+    cursor: pointer;
+   
+   
+}
